@@ -1,0 +1,10 @@
+.video-frame {
+  border: 10px solid black;
+  padding: 5px;
+}
+
+.video-frame video {
+  display: block;
+  width: 100%;
+  height: auto;
+}
