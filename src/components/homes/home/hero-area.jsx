@@ -1,5 +1,5 @@
 import Link from "next/link";
-import React, { useEffect, useRef } from 'react';
+import React, { useEffect, useRef } from "react";
 import ReactPlayer from "react-player";
 // import "../../../../public/assets/css/heroareastyle.css"
 // import "./herostyle.css"
@@ -42,8 +42,6 @@ const hero_contents = {
   //   },
   // ],
   hero_img: "",
-  
-
 };
 
 const { title, text, btn_text, btn_text_2, social_links, hero_img } =
@@ -57,30 +55,27 @@ const HeroArea = () => {
     video.play();
   }, []);
   const playerStyle = {
-    position: 'relative',
-    marginTop:'-100%',
-    width: '100%',
-    
-    
-  //   \height: '500px',
+    position: "relative",
+    marginTop: "-100%",
+    width: "130%",
+
+    //   \height: '500px',
     // paddingTop: '56.25%', /* 16:9 aspect ratio */
   };
   const heroStyle = {
-    position: 'relative',
-    marginTop:'50%',
-    width: '100%',
-    height: '120% !important',
+    position: "relative",
+    marginTop: "50%",
+    width: "130%",
+    height: "120% !important",
     // height : '700px !important ',
-   
-  
-    top: '25px',
+
+    top: "25px",
     left: 0,
-  
- 
-    height: '500px !important',
-  // padding-bottom: 56.25%; /* 16:9 aspect ratio */
+
+    height: "500px !important",
+    // padding-bottom: 56.25%; /* 16:9 aspect ratio */
     //  position: relative,
-  //   \height: '500px',
+    //   \height: '500px',
     // paddingTop: '56.25%', /* 16:9 aspect ratio */
   };
 
@@ -165,16 +160,22 @@ const HeroArea = () => {
               >
                 {/* <img src={hero_img} alt="" /> */}
                 <div style={playerStyle}>
-                {/* <img  className="hello" src="./assets/img/about/about-6.1.png"/> */}
-                <video style={heroStyle} height = "1000px !important" ref={videoRef} autoPlay muted loop>
-      <source src="./assets/videos/WhatsApp Video 2023-02-27 at 17.54.08.mp4" type="video/mp4"
-      
-      />
-      {/* fallback content */}
-
-    </video>
-        
-      </div>
+                  {/* <img  className="hello" src="./assets/img/about/about-6.1.png"/> */}
+                  <video
+                    style={heroStyle}
+                    height="1200px !important"
+                    ref={videoRef}
+                    autoPlay
+                    muted
+                    loop
+                  >
+                    <source
+                      src="./assets/videos/WhatsApp Video 2023-02-27 at 17.54.08.mp4"
+                      type="video/mp4"
+                    />
+                    {/* fallback content */}
+                  </video>
+                </div>
               </div>
             </div>
           </div>

@@ -7,10 +7,8 @@ const services_data = [
     delay: ".8s",
     img: "/assets/img/service/cyborg-number-one.svg",
     title: "Record your Virtual Session",
-    text_1:
-      "tex1 *",
-    text_2:
-      "tex 2* ",
+    text_1: "tex1 *",
+    text_2: "tex 2* ",
     home: true,
     service_p_2: true,
   },
@@ -20,10 +18,8 @@ const services_data = [
     delay: "1s",
     img: "/assets/img/service/cyborg-number-two.svg",
     title: "Now leave on Us! Auto-editing, it's your time to Judge us",
-    text_1:
-      " text 5*",
-    text_2:
-      "text 6*",
+    text_1: " text 5*",
+    text_2: "text 6*",
     home: true,
     service_p_2: true,
   },
@@ -33,10 +29,8 @@ const services_data = [
     delay: "1.2s",
     img: "/assets/img/service/cyborg-number-three.svg",
     title: "Share and Show it to the World!",
-    text_1:
-      "text 3*",
-    text_2:
-      "text4*.",
+    text_1: "text 3*",
+    text_2: "text4*.",
     home: true,
     // service_p_2: true,
   },
@@ -131,13 +125,13 @@ const services_data = [
     id: 1,
     duration: ".3s",
     delay: ".5s",
-    img: "/assets/img/service/cyborg-number-one.svg",
+    img: "/assets/img/service/youtube-2.gif",
 
     title1: " Lights,Camera,Actions!",
-    title2 : "Record your virtual session ",
+    title2: "Record your virtual session ",
 
     border_effect: "sv-border-effect-1",
-    text_1: 
+    text_1:
       "At Collax we specialize in designing, building, shipping and scaling beautiful, usable products with blazing-fast",
     home_4: true,
     service_p: true,
@@ -146,7 +140,7 @@ const services_data = [
     id: 12,
     duration: ".5s",
     delay: ".7s",
-    img: "/assets/img/service/cyborg-number-two.svg",
+    img: "/assets/img/service/resize.gif",
     title1: "It's Showtime!",
     title2: "Our AI will auto-edit your content",
     border_effect: "sv-border-effect-1",
@@ -159,9 +153,9 @@ const services_data = [
     id: 13,
     duration: ".7s",
     delay: ".9s",
-    img: "/assets/img/service/cyborg-number-three.svg",
+    img: "/assets/img/service/down-5.gif",
     title1: "Go Viral!",
-    title2:  " Download Or Share your content",
+    title2: " Download Or Share your content",
 
     border_effect: "sv-border-effect-2",
     text_1:
@@ -173,9 +167,9 @@ const services_data = [
     id: 14,
     duration: ".7s",
     delay: ".9s",
-    img: "/assets/img/service/cyborg-number-three.svg",
+    img: "/assets/img/service/publish-3.gif",
     title1: "The Big Reveal!",
-    title2:  "Publish on our marketplace ",
+    title2: "Publish on our marketplace ",
 
     border_effect: "sv-border-effect-2",
     text_1:
@@ -183,7 +177,7 @@ const services_data = [
     home_4: true,
     service_p: true,
   },
-  
+
   // {
   //   id: 15,
   //   duration: ".9s",

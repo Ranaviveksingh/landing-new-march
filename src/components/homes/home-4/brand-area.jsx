@@ -1,5 +1,5 @@
-import React from 'react';
-import Brands from '../../common/brands';
+import React from "react";
+import Brands from "../../common/brands";
 
 const BrandArea = () => {
   return (
@@ -8,7 +8,9 @@ const BrandArea = () => {
         <div className="row">
           <div className="col-12">
             <div className="tp-brand-title-four text-center pb-60">
-              <h4 className="tp-brand-title">Over <b>50+</b> Professionals have tested Bigbuddy AI</h4>
+              <h4 className="tp-brand-title">
+                Over <b>50+</b> Professionals are using Bigbuddy AI
+              </h4>
             </div>
           </div>
         </div>
