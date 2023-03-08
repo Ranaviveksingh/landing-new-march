@@ -19,7 +19,7 @@ function VideoPlayer() {
     return (
       <div style={playerStyle}>
         <ReactPlayer
-          url='https://www.youtube.com/watch?v=dQw4w9WgXcQ'
+          url='https://youtu.be/ki65h9VHYRM/'
           {...reactPlayerConfig}
         />
       </div>

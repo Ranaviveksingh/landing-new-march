@@ -9,7 +9,7 @@ const portfolio_data = [
   {
     id: 1,
      img: "/assets/img/project/project-1.jpg",
-     video_id: "PO_fBTkoznc",
+     video_id: "ki65h9VHYRM",
      video_title: "Play, Checkout Some Autoedited Videos",
     title: "Hosting Website Design",
     sm_text: "At Collax we specialize in designing, building, shipping...",

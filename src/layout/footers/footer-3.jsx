@@ -5,7 +5,7 @@ import CopyrightArea from './component/copyright-area';
 
 const footer_contents = {
   logo: '/assets/img/logo/logo-white.png',
-  widget_desc: 'A new way to make the payments easy, reliable and 100% secure. claritatem itamconse quat. Exerci tationulla',
+  widget_desc: 'Our AI tool is designed to make the video editing process fast, easy. Bigbuddy can help you create videos that stand out. Try our tool today and see the difference for yourself.',
   footer_widgets: [
     {
       w_class: 'd-flex justify-content-lg-center',

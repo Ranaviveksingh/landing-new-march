@@ -4,19 +4,19 @@ import { Swiper, SwiperSlide } from "swiper/react";
 const testimonial_data = [
   {
     id: 1,
-    user: '/assets/img/testimonial/testi-1.png',
-    name: 'Dhawan Solanki',
-    title: 'Founder of (Rirax)',
+    user: '/assets/img/testimonial/testi-1.jpeg',
+    name: 'Sanjeev Kumar',
+    title: 'SDE OLA',
     ratings: [1, 2, 3, 4, 5],
-    desc: 'Collax was very diligent, polite and extremely customer oriented. I think Monika will go far with that attitude and ...he is such a honest, decent and reliable.'
+    desc: 'Bigbuddy has been a game-changer for me! As someone who records online sessions regularly, I was always intimidated by the editing process. But with Bigbuddy, I can now easily convert my raw recordings into professionally edited videos without any hassle. The greenscreen feature and animation editing options are fantastic and have made my videos look incredibly polished.'
   },
   {
     id: 2,
     user: '/assets/img/testimonial/testi-2.jpg',
-    name: 'Floyd Miles',
-    title: 'CEO of (Orix)',
+    name: 'Dilip Kumar',
+    title: 'SDE at Alivecor',
     ratings: [1, 2, 3, 4],
-    desc: 'Collax was very diligent, polite and extremely customer oriented. I think Monika will go far with that attitude and ...he is such a honest, decent and reliable.'
+    desc: 'I cannot recommend Bigbuddy enough! The AI tool has saved me so much time and effort by automatically editing my online session recordings into high-quality videos. The virtual greenscreen feature is a game-changer, and the animation editing options are intuitive and easy to use. I am incredibly happy with the results, and my audience has noticed a significant improvement in the quality of my videos.'
   },
   {
     id: 3,
@@ -24,16 +24,16 @@ const testimonial_data = [
     name: 'Dhawan Solanki',
     title: 'Member of CIIE developers wing',
     ratings: [1, 2, 3, 4, 5],
-    desc: 'I wanted to take a moment to express my sincere gratitude for Big Buddy. They are always available to answer my questions and provide support whenever I need it'
+    desc: 'Bigbuddy is a lifesaver! As someone who records and uploads online sessions regularly, I was always looking for a way to simplify the editing process. With Bigbuddy, I can now easily convert my raw recordings into professionally edited videos with just a few clicks. The AI tools greenscreen feature is incredibly helpful, and the animation editing options have taken my videos to the next level.'
   },
-  // {
-  //   id: 4,
-  //   user: '/assets/img/testimonial/testi-1.png',
-  //   name: 'Darrell Steward',
-  //   title: 'Founder of (Rirax)',
-  //   ratings: [1, 2, 3, 4, 5],
-  //   desc: 'Collax was very diligent, polite and extremely customer oriented. I think Monika will go far with that attitude and ...he is such a honest, decent and reliable.'
-  // },
+  {
+    id: 4,
+    user: '/assets/img/testimonial/testi-1.png',
+    name: 'Simran',
+    title: 'Coach at Schoolhouse World',
+    ratings: [1, 2, 3, 4, 5],
+    desc: 'I am blown away by Bigbuddys capabilities! As someone who is not a professional editor, I was hesitant to start creating videos. But Bigbuddy has made the process incredibly easy and intuitive. The AI tools virtual greenscreen feature is seamless, and the animation editing options are incredibly versatile. I would recommend Bigbuddy to anyone looking to create professional-looking videos without any prior editing experience.'
+  },
 ]
 
 const testimonial_2_data = [
@@ -43,31 +43,31 @@ const testimonial_2_data = [
     name: 'Ayushi Singh ',
     title: 'Founder of Hattyhood ',
     ratings: [1, 2, 3, 4, 5],
-    desc: "Absolutely amazing. we can't believe how incredible this turned out. Big Buddy is a true professional. It is so honest, decent and reliable. They always provide good service"
+    desc: "I've been using Bigbuddy for a few months now, and I can confidently say that it's one of the best investments I've made for my business. The AI tool's ability to automatically edit my online session recordings into polished videos has saved me countless hours of work. The virtual greenscreen feature and animation editing options are top-notch, and the end results always exceed my expectations. I highly recommend Bigbuddy to anyone looking to take their video content to the next level."
   },
   {
     id: 2,
     user: '/assets/img/testimonial/testi-5.jpg',
-    name: 'Floyd Miles',
-    title: 'CEO of (Orix)',
+    name: 'Shravani',
+    title: 'Final year student at MU',
     ratings: [1, 2, 3, 4],
-    desc: "Absolutely amazing. we can't believe how incredible this turned out. Yetta Thomas is a true professional. he is such a honest, decent and reliable. He always provide good service"
+    desc: "I was skeptical about using an AI tool to edit my online session recordings, but Bigbuddy exceeded my expectations. The tool is incredibly user-friendly, and the virtual greenscreen feature and animation editing options are fantastic. I was able to create a high-quality video in a matter of minutes, and the end result looked like it was edited by a professional. I highly recommend Bigbuddy to anyone looking to save time and create great-looking videos."
   },
   {
     id: 3,
     user: '/assets/img/testimonial/testi-6.jpg',
-    name: 'Albert Flores',
-    title: 'Founder of (Rirax)',
+    name: 'Anand Kumar',
+    title: 'Principal Program Manager at Tricon Infotech ',
     ratings: [1, 2, 3, 4, 5],
-    desc: "Absolutely amazing. we can't believe how incredible this turned out. Yetta Thomas is a true professional. he is such a honest, decent and reliable. He always provide good service"
+    desc: "Bigbuddy has been a game-changer for my YouTube channel. As a solo creator, I don't have the time or expertise to edit my videos like a professional. But with Bigbuddy, I can easily convert my raw recordings into polished, visually appealing videos. The virtual greenscreen feature and animation editing options have taken my videos to the next level, and I've received great feedback from my viewers. I highly recommend Bigbuddy to anyone looking to create great-looking videos without the hassle"
   },
   {
     id: 4,
-    user: '/assets/img/testimonial/testi-5.jpg',
-    name: 'Darrell Steward',
-    title: 'Founder of (Rirax)',
+    user: '/assets/img/testimonial/testi-3.jpg',
+    name: 'Ravindra Vaid',
+    title: 'SDE Simpl',
     ratings: [1, 2, 3, 4, 5],
-    desc: "Absolutely amazing. we can't believe how incredible this turned out. Yetta Thomas is a true professional. he is such a honest, decent and reliable. He always provide good service"
+    desc: "I've been using Bigbuddy to edit my online session recordings for my business, and it's been a huge time-saver. The tool is incredibly intuitive, and the virtual greenscreen feature and animation editing options are fantastic. I've been able to create professional-looking videos without any prior editing experience, and the end results have been fantastic. I highly recommend Bigbuddy to anyone looking to create high-quality videos quickly and easily."
   },
 ]
 

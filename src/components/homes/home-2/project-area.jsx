@@ -4,7 +4,7 @@ import ImageLightBox from '../../common/modals/image-lightbox';
 
 const project_contents = {
   subtitle: 'Complete Project',
-  title: 'Creative work.',
+  title: 'Creative work',
   shapes: [{ num: 'one', img: 'project-shape-2.png' }, { num: 'two', img: 'project-shape-3.png' },],
   project_items: [
     { img: '/assets/img/portfolio/port-10.jpg', category: 'Website' },

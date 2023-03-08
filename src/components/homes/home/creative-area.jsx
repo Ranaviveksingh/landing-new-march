@@ -16,7 +16,7 @@ const creative_contents = {
       the help of AI.
     </>
   ),
-  video_id: "PO_fBTkoznc",
+  video_id: "ki65h9VHYRM",
   video_title: "Play, Checkout Some Autoedited Videos",
   creative_box: [
     {
